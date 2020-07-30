@@ -23,17 +23,18 @@
 #  SOFTWARE.
 #
 
-import pyaudio
-import wave
+# stdlib
+import datetime
 import sys
 import time
+import wave
 
-import datetime
+# 3rd party
+import pyaudio
 
 # start time
 target_time = datetime.datetime(2021, 1, 1, 0, 0, 0)
 filename = "./02-09- In The Air Tonight.wav"
-
 
 offset = datetime.timedelta(seconds=41, minutes=3)
 start_time = target_time - offset
