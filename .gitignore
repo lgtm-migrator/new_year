@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Copyrighted Music
+.mp3
+.MP3
+.wav
+.WAV
