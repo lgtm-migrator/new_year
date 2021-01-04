@@ -40,7 +40,7 @@ repos:
       args: [--py36-plus]
 
  - repo: https://github.com/PyCQA/isort
-   rev: 5.6.4
+   rev: 5.7.0
    hooks:
     - id: isort
       exclude: ^(doc-source/conf|__pkginfo__|make_conda_recipe|setup)\.py$
