@@ -34,13 +34,13 @@ repos:
     - id: python-use-type-annotations
 
  - repo: https://github.com/asottile/pyupgrade
-   rev: v2.10.0
+   rev: v2.11.0
    hooks:
     - id: pyupgrade
       args: [--py36-plus]
 
  - repo: https://github.com/PyCQA/isort
-   rev: 5.7.0
+   rev: 5.8.0
    hooks:
     - id: isort
       exclude: ^(doc-source/conf|__pkginfo__|make_conda_recipe|setup)\.py$
